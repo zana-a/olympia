@@ -1,3 +1,7 @@
+use document::hello;
+
+mod document;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", document::hello());
 }
