@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<document>
+    <head>
+        <author>Zana Ahmad</author>
+        <title>Example</title>
+        <date>2021-11-26T19:52:51.972Z</date>
+    </head>
+    <content>
+        <paragraph level="body">
+            <run color="0x000000" bold="true">
+                Hello,
+            </run>
+            <run color="0x000000" bold="false">
+                World!
+            </run>
+        </paragraph>
+    </content>
+</document>
