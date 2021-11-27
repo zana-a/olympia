@@ -1,1 +1,1 @@
-use crate::document::element::run::Option;use crate::document::element::run::Run;mod document;fn main() {}
+use crate::document::element::paragraph::Paragraph;use crate::document::element::run::Option;use crate::document::element::run::Run;mod document;fn main() {    let mut paragraph_0 = Paragraph::new();    paragraph_0.insert(Run::new("Hello, World".to_string()));    paragraph_0.insert(Run::new("Hello, World".to_string()));    paragraph_0.insert(Run::new("Hello, World".to_string()));    println!("{:#?}", paragraph_0);}
