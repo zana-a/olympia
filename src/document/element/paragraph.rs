@@ -10,7 +10,7 @@ impl Paragraph {
         Self { runs: None }
     }
 
-    pub fn insert(&mut self, run: Run) {
+    pub fn insert_run(&mut self, run: Run) {
         match &mut self.runs {
             Some(vec) => vec.push(run),
             None => {
